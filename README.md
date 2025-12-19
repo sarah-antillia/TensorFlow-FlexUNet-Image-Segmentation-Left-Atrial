@@ -104,8 +104,10 @@ Left-Atrial-PNG-ImageMask-Dataset.zip</a>
 </pre>
 <br>
 On the derivation of this dataset, please refer to the following Python scripts:<br>
+<ul>
 <li><a href="./generator/ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a></li>
 <li><a href="./generator/split_master.py">split_master.py.</a></li>
+</ul>
 <br>
 <br>
 <b>Left-Atrial Statistics</b><br>
