@@ -191,11 +191,11 @@ patience      = 10
 </pre>
 <b></b><br>
 <pre>
+<b>Mask</b><br>
 [mask]
 mask_file_format = ".png"
 ;Left-Atrial 1+1
 rgb_map = {(0,0,0):0, (255,0,255):1,  }
-
 </pre>
 <b>Epoch change inference callbacks</b><br>
 Enabled epoch_change_infer callback.<br>
