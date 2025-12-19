@@ -182,7 +182,6 @@ learning_rate_reducer = True
 reducer_factor     = 0.5
 reducer_patience   = 4
 </pre>
-
 <b>Early stopping callback</b><br>
 Enabled early stopping callback with patience parameter.
 <pre>
@@ -190,8 +189,8 @@ Enabled early stopping callback with patience parameter.
 patience      = 10
 </pre>
 <b></b><br>
-<pre>
 <b>Mask</b><br>
+<pre>
 [mask]
 mask_file_format = ".png"
 ;Left-Atrial 1+1
