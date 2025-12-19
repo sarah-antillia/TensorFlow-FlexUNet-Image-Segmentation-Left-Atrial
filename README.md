@@ -144,9 +144,19 @@ Defined a small <b>base_filters=16</b> and a large <b>base_kernels=(11,11)</b> f
 and a large num_layers (including a bridge between Encoder and Decoder Blocks).
 <pre>
 [model]
+image_width    = 512
+image_height   = 512
+image_channels = 3
+input_normalize = True
+normalization  = False
+
+num_classes    = 2
+
 base_filters   = 16
 base_kernels   = (11,11)
 num_layers     = 8
+
+dropout_rate   = 0.04
 dilation       = (1,1)
 </pre>
 
@@ -173,14 +183,20 @@ reducer_factor     = 0.5
 reducer_patience   = 4
 </pre>
 
-
 <b>Early stopping callback</b><br>
 Enabled early stopping callback with patience parameter.
 <pre>
 [train]
 patience      = 10
 </pre>
+<b></b><br>
+<pre>
+[mask]
+mask_file_format = ".png"
+;Left-Atrial 1+1
+rgb_map = {(0,0,0):0, (255,0,255):1,  }
 
+</pre>
 <b>Epoch change inference callbacks</b><br>
 Enabled epoch_change_infer callback.<br>
 <pre>
