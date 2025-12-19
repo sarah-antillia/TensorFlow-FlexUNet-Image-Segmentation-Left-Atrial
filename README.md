@@ -189,7 +189,8 @@ Enabled early stopping callback with patience parameter.
 patience      = 10
 </pre>
 <b></b><br>
-<b>Mask</b><br>
+<b>RGB color map</b><br>
+rgb color map dict for Left Atrial 1+1 classes.<br>
 <pre>
 [mask]
 mask_file_format = ".png"
